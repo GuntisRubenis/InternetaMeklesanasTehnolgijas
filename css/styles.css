@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+.container
+{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.row{
+    width: 100%;
+    clear: both;
+    float: none;
+}
+.col-1 {width: 8%;}
+.col-2 {width: 16%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33%;}
+.col-5 {width: 41%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58%;}
+.col-8 {width: 66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83%;}
+.col-11 {width: 91%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+    padding: 0 15px;
+}
+.header{
+    width: 100%;
+    padding: 20px 0;
+    background: #000;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.header a{
+    color: #fff;
+    text-transform: uppercase;
+    padding-right: 25px;
+    font-weight: 700;
+}
+.banner{
+    margin-bottom: 20px;
+}
+.banner img{
+    width:100%;
+}
+.text-read-more{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.read-more .more{
+    display: none;
+    opacity: 0;
+    margin-bottom: 15px;
+}
+.read-more .more.open {
+    display: block;
+    opacity: 1;
+}
+a:link,a:focus,a:active{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    max-width: 100%;
+    min-width: 100%;
+    border: 3px solid black;
+}
+.banner img{
+    border:none;
+}
+.footer{
+    margin-top: 200px;
+    padding: 35px 0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+}
+.help-block{
+    font-size: 12px;
+    color: #000;
+}
+.add-more{
+    margin-bottom: 15px;
+}
+hr{
+    width: 100%;
+    clear: both;
+    border-top: 1px solid #dddddd;
+}
+.form-group{
+    margin: 10px 0;
+}
+.form-group label{
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.form-group .form-control{
+    width: 100%;
+    border: 2px solid #A9A9A9;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.range{
+    padding: 19px 20px;
+}
+.btn{
+    padding: 10px 25px;
+    border: 2px solid #A9A9A9;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-success{
+    background:green;
+    color: #fff;
+}
+.btn-success:hover{
+    background:rgb(80, 138, 78);
+}
+.btn-danger{
+    background: red;
+    color: #fff;
+}
+.btn-danger:hover{
+    background: rgb(255, 95, 95);
+}
+.btn-info{
+    background: blue;
+    color: #fff;
+}
+.btn-info:hover{
+    background: rgb(89, 71, 255);
+}
